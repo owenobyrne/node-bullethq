@@ -1,7 +1,7 @@
 {
   "name": "bullethq",
-  "version": "0.0.1",
-  "description": "A Node wrapper for the BukketHQ API service",
+  "version": "0.0.2",
+  "description": "A Node wrapper for the BulletHQ API service",
   "main": "index.js",
   "scripts": {
     "test": "for f in test/*; do echo \"$f\"; node \"$f\"; done; echo 'passed!'; exit 0"
