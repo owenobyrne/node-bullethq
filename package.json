@@ -1,0 +1,25 @@
+{
+  "name": "bullethq",
+  "version": "0.0.1",
+  "description": "A Node wrapper for the BukketHQ API service",
+  "main": "index.js",
+  "scripts": {
+    "test": "for f in test/*; do echo \"$f\"; node \"$f\"; done; echo 'passed!'; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owenobyrne/node-bullethq.git"
+  },
+  "keywords": [
+    "node",
+    "bullethq"
+  ],
+ "dependencies": {
+    "requestify": "~0.1.16"
+  },
+  "author": "Owen O Byrne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owenobyrne/node-bullethq/issues"
+  }
+}
