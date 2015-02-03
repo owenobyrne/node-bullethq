@@ -2,13 +2,17 @@ var bullethq = require("./../index");
 
 bullethq.initialize("xxxxxxxxxxxxx@XXX.xxx", "xxxxxxxxxxxxxxx", "xxxx");
 
-
 bullethq.listAllInvoices(function(err, data) {
 	if (err) { console.log(err); return false; }
 
 	console.log(data);
 });
 
+bullethq.listAllBankAccounts(function(err, data) {
+	if (err) { console.log(err); return false; }
+
+	console.log(data);
+});
 
 bullethq.createClientPayment({
 	    currency: "EUR",
@@ -23,5 +27,3 @@ bullethq.createClientPayment({
 		console.log(data);
 	}
 );
-
-
