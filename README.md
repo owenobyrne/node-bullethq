@@ -50,4 +50,4 @@ As a submodule of your project
 	$ git submodule add http://github.com/owenobyrne/node-bullethq.git bullethq
 	$ git submodule update --init
 
-	
+[npm]: https://github.com/isaacs/npm
